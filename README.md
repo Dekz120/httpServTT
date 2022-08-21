@@ -1,5 +1,6 @@
 # httpServTT
-Http server capable to handle some specific requests.
+Http server capable to handle some specific requests. 
+Requires boost, and libyaml-cpp-dev
 
 Compile
 g++ -std=c++17 main.cpp -o httpServ -L /usr/lib/ -pthread -lyaml-cpp -lboost_iostreams
